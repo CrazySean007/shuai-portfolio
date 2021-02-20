@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom"
-import Login from "./components/login/login"
-import ResumeBook from "./components/resume/resumebook"
+import Login from "./components/login"
+import ResumeBook from "./components/resume"
 
 function App() {
   return (

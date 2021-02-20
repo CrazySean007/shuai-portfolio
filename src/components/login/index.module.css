@@ -1,0 +1,25 @@
+.login {
+  background-color: rgb(40, 9, 97, 0.3);
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(41, 185, 130, 0.5);
+  align-items: center;
+}
+
+.form {
+  width: 80%;
+  max-width: 600px;
+  max-height: 400px;
+  height: 50%;
+  margin: 15rem auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
