@@ -1,0 +1,41 @@
+.experience {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  color: whitesmoke;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.timeline {
+  color: white;
+  text-align: left;
+  width: 25vw;
+}
+
+.experience_card {
+  margin: 2rem 2rem;
+  display: inline-block;
+}
+
+.experience_card :global(.ant-card) {
+  border-radius: 1rem;
+}
+.experience_card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card_content {
+  width: 100%;
+  min-width: 18rem;
+  border-radius: 1rem;
+  background-color: rgba(179, 196, 134, 0.9);
+}
+
+.experience :global(.ant-card-body) {
+  padding: 1rem;
+}
